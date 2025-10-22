@@ -1,2 +1,10 @@
-Please add your pseudocode to this file
-And a written explanation of your solution
+Loop through the given string until all possible combinations have been found
+
+1. Start at the first character in the given string and push it to a block variable array
+2. Add one character at a time and push it to the block variable
+3. Once the string has been fully parsed, change the starting point to be one character deeper
+4. Do this until we start our loop at the final character in the string
+
+To do this, we will use a nested For Loop within a For Loop
+
+To properly push the string to the array, we will use slice() on the string
